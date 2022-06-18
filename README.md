@@ -15,7 +15,7 @@ Criei meu primeiro projeto utilizando JavaScript.
 ### 🖼️ Prévia do Projeto 🖼️
 
 <div align="center">
-  <img height="600em" src="images/demo/simple_contact_form_index.jpg">
+  <img height="400em" src="images/demo/simple_contact_form_index.jpg">
 </div>
 
 <hr>
