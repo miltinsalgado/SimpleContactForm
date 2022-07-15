@@ -1,69 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Formulário com HTML, CSS e JS">
-        <meta name="keywords" content="formulário, HTML, CSS, JS">
-        <meta name="author" content="Milton Salgado Leandro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário com HTML, CSS e JS">
+    <meta name="keywords" content="formulário, HTML, CSS, JS">
+    <meta name="author" content="Milton Salgado Leandro">
+    <title>Formulário de Contato</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="images/icons/formulario_icon.png" rel="icon">
+    <script src="js/functions.js"></script>
+</head>
 
-        <title>Formulário de Contato</title>
+<body>
+    <main>
+        <div class="container">
+            <h1>Formulário de Contato</h1>
+            <div class="form">
+                <form id="form" action="js/main.js" method="get">
+                    <fieldset>
+                        <legend>Entre em contato conosco</legend>
 
-        <link href="css/style.css" rel="stylesheet">
-        <link href="images/icons/formulario_icon.png" rel="icon">
-        
-        <script src="js/functions.js"></script>
-    </head>
+                        <div class="form_element_wrapper w100">
+                            <input type="text" name="name" id="name" placeholder="Nome">
+                        </div>
 
-    <body>
+                        <div class="form_element_wrapper w50">
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+                        </div>
 
-        <main>
-            <div class="container">
+                        <div class="form_element_wrapper w50">
+                            <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                        </div>
 
-                <h1>Formulário de Contato</h1>
+                        <div class="form_element_wrapper w100">
+                            <textarea rows="10" id="message" placeholder="Mensagem"></textarea>
+                        </div>
 
-                <div class="form">
+                        <div class="clear"></div>
 
-                    <form id="form" action="js/main.js" method="get">
-
-                        <fieldset>
-
-                            <legend>Entre em contato conosco</legend>
-
-                            <div class="form_element_wrapper w100">
-                                <input type="text" name="name" id="name" placeholder="Nome">
-                            </div>
-
-                            <div class="form_element_wrapper w50">
-                                <input type="email" name="email" id="email" placeholder="E-mail">
-                            </div>
-    
-                            <div class="form_element_wrapper w50">
-                                <input type="tel" name="tel" id="tel" placeholder="Telefone">
-                            </div>
-    
-                            <div class="form_element_wrapper w100">
-                                <textarea rows="10" id="message" placeholder="Mensagem"></textarea>
-                            </div>
-    
-                            <div class="clear"></div>
-    
-                            <div class="form_element_wrapper_input">
-                                <input type="button" id="button" value="Enviar" onclick="showFormData()">
-                            </div>
-
-                        </fieldset>
-
-                    </form>
-
-                </div>
-
+                        <div class="form_element_wrapper_input">
+                            <input type="button" id="button" value="Enviar" onclick="showFormData()">
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-
-        </main>
-        
-    </body>
+        </div>
+    </main>
+</body>
 
 </html>
