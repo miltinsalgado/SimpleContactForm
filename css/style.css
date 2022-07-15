@@ -1,13 +1,13 @@
 /* CSS reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
-html, body{
+html, body {
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -16,12 +16,12 @@ html, body{
 
 /* general divs */
 
-.container{
+.container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
@@ -29,7 +29,7 @@ html, body{
 
 /* fonts */
 
-@font-face{
+@font-face {
     font-family: "Raleway";
     src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
 }
@@ -38,7 +38,7 @@ html, body{
 
 /* body */
 
-body{
+body {
     background-image: url("../images/background.jpg");
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@ body{
 
 /* main */
 
-main .container{
+main .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,12 +60,12 @@ main .container{
     padding: 2%;
 }
 
-.container h1{
+.container h1 {
     margin: 40px 0;
     text-align: center;
 }
 
-.form{
+.form {
     width: 100%;
     max-width: 750px;
     padding: 20px 2%;
@@ -74,7 +74,7 @@ main .container{
     border-radius: 10px;
 }
 
-form fieldset{
+form fieldset {
     text-align: center;
     padding: 15px 2%;
     border: none;
@@ -82,12 +82,12 @@ form fieldset{
     font-size: 21px;
 }
 
-.form_element_wrapper{
+.form_element_wrapper {
     padding: 2%;
     float: left;
 }
 
-.form_element_wrapper input, .form_element_wrapper textarea{
+.form_element_wrapper input, .form_element_wrapper textarea {
     line-height: 20px;
     padding: 15px;
     width: 100%;
@@ -96,20 +96,20 @@ form fieldset{
     outline: none;
 }
 
-.form_element_wrapper input:focus, .form_element_wrapper textarea:focus{
+.form_element_wrapper input:focus, .form_element_wrapper textarea:focus {
     outline: 3px solid #373457;
 }
 
-.form_element_wrapper textarea{
+.form_element_wrapper textarea {
     resize: none;
 }
 
-.form_element_wrapper_input{
+.form_element_wrapper_input {
     max-width: 150px;
     margin: 0 auto;
 }
 
-.form_element_wrapper_input input{
+.form_element_wrapper_input input {
     padding: 15px;
     width: 100%;
     cursor: pointer;
@@ -119,21 +119,21 @@ form fieldset{
     transition: background-color 0.65s, color 0.65s;
 }
 
-.form_element_wrapper_input input:hover{
+.form_element_wrapper_input input:hover {
     background-color: #373457;
     color: white;
 }
 
-.w100{
+.w100 {
     width: 100%;
 }
 
-.w50{
+.w50 {
     width: 50%;
 }
 
-@media screen and (max-width: 768px){
-    .w50{
+@media screen and (max-width: 768px) {
+    .w50 {
         width: 100%;
     }
 }
