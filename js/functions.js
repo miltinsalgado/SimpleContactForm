@@ -1,4 +1,4 @@
-function showFormData () {
+function showFormData() {
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const tel = document.getElementById("tel").value;
